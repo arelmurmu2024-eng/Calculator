@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <!--main calculator body-->
+    <div id="calc-body" class="container-md border border-2 
+    rounded-5 border-black-subtle">
+        
+      <!-- Calc input bar -->
+        <div class="input-group mb-3" id="exp-bar">
+            <input type="text" id="exp-bar-inp" class="form-control border rounded-5 border-0" 
+            placeholder="Calc" aria-label="Exp" 
+            aria-describedby="basic-addon1">
+        </div>
+
+      <!-- Operator keys -->
+        <div id="" class="container-md">
+          <button class="operator-btn btn btn-warning border border-0
+          rounded-circle">+</button>
+          <button class="operator-btn btn btn-warning border border-0
+          rounded-circle">-</button>
+          <button class="operator-btn btn btn-warning border border-0
+          rounded-circle">x</button>
+          <button class="operator-btn btn btn-warning border border-0
+          rounded-circle">/</button>
+          <button id="equal-btn" class="operator-btn btn btn-warning border border-0
+          rounded-circle">=</button>
+        </div>
+
+      <!--Number Keys-->
+        <div id="num-keys" class="container-md">
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">1</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">2</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">3</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">4</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">5</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">6</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">7</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">8</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">9</button>
+          <button class="num-btn btn border rounded-circle 
+          border-1 border-black-subtle">0</button>
+        </div>
+      
+        <!--Clear key-->
+        <button id="clear-btn" class="btn btn-success opacity-75 border rounded-5" style="margin-bottom: 2rem;">AC</button>
+    </div>
+
+    <!--Main logic-->
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
