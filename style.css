@@ -26,10 +26,17 @@
 
     height: 3rem;
 }
+#exp-bar-inp::placeholder{
+    color: #E8F5BD;
+}
 .operator-btn{
     height: 3.5rem;
     width: 3.5rem;
 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
     margin: 0.5vw;
 
     font-size: 2rem;
@@ -41,11 +48,17 @@
 }
 .equal-btn{
     height: 3rem;
-    width: 50px;
+    width: 3rem;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
     background-color: #F25912;
 
-    border: none;
+    padding:0px;
+
+    border: 0rem;
 
     margin: 0.5vw;
     margin-top: 6px;
@@ -79,7 +92,6 @@
     background-color: 211832;
     backdrop-filter: blur(50px);
 }
-
 
 @media (min-width: 576px){
     #calc-body{
