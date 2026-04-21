@@ -93,7 +93,7 @@
     backdrop-filter: blur(50px);
 }
 .num-btn:hover{
-    color: #F25912 ;
+    color: #F25912 !important;
 }
 
 @media (min-width: 576px){
