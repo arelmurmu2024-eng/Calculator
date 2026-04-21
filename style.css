@@ -92,6 +92,9 @@
     background-color: 211832;
     backdrop-filter: blur(50px);
 }
+.num-btn:hover{
+    color: #F25912 ;
+}
 
 @media (min-width: 576px){
     #calc-body{
