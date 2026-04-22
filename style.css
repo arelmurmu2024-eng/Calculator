@@ -113,3 +113,20 @@
         margin-top: 0rem;
     }
 }
+#cre{
+    display: flex;
+    justify-content: center;
+}
+#credit{
+    border-right: 2px solid;
+    margin-inline: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typeWriter 3s steps(22) forwards;
+}
+
+
+@keyframes typeWriter {
+    from{width: 0px;}
+    to{width: 100%;}
+}
