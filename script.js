@@ -34,5 +34,11 @@ numBtns.forEach((btn)=>{
 document.body.querySelector("#clear-btn").addEventListener("click", ()=>{
     inp.value = "";
     exp = "";
-})
+});
+
+//For backspace
+document.body.querySelector("#del-btn").addEventListener("click", ()=>{
+    let temp = inp.value;
+    inp.value = temp.substring(0,temp.length-1);
+});
 
